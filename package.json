@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "cumcord-types": "^1.3.0"
+  },
+  "dependencies": {
+    "sharp": "^0.30.7"
+  }
+}
