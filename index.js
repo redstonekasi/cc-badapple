@@ -2,7 +2,7 @@ import { injectCSS } from "@cumcord/patcher";
 import { id } from "@cumcord/pluginData";
 import { installed, togglePlugin } from "@cumcord/plugins";
 import { sleep } from "@cumcord/utils";
-import config from "./config.js";
+import config from "./config.mjs";
 
 const originalDesc = installed.ghost[id].manifest.description;
 let running = false;

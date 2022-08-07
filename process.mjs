@@ -1,7 +1,7 @@
 import sharp from "sharp";
 import fs from "fs/promises";
 import process from "process";
-import config from "./config.js";
+import config from "./config.mjs";
 
 const chars = "░▒▓█";
 const charScale = 3 / (255 * 3);
