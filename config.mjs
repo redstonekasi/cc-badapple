@@ -1,5 +1,5 @@
 export default {
   framerate: 30,
-  width: 86,
-  textsize: "10px",
+  width: 94 * 2,
+  textsize: "9px",
 };

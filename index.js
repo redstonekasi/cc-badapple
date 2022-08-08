@@ -24,10 +24,11 @@ async function run() {
 
   await audio.play();
 
+  let waitP = wait();
   for (let i = 0; i < frames.length && running; i++) {
-    const waitP = wait();
     if (installed.ghost[id]) installed.store[id].manifest.description = frames[i];
     await waitP;
+    waitP = wait();
   }
 
   if (installed.ghost[id]?.enabled) togglePlugin(id);
